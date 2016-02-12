@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingLeft="20dp"
+              android:paddingTop="15dp"
+              android:paddingRight="20dp"
+
+              android:background="#7989b3">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operation"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="20dp"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:id="@+id/outerLayout"
+
+    >
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:id="@+id/checkBoxLayout"
+                android:paddingLeft="10dp"
+                >
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/chkBoxA"
+                    android:layout_alignParentStart="true"
+            />
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/chkBoxB"
+                    android:layout_below="@+id/chkBoxA"
+            />
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/chkBoxC"
+                    android:layout_below="@+id/chkBoxB"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/relativeLayout">
+
+            <RadioGroup android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingRight="50dp"
+
+            >
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AND"
+                        android:id="@+id/radBtnAnd"
+                />
+                <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="OR"
+                        android:id="@+id/radBtnOr"
+                        />
+
+                <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOT"
+                        android:id="@+id/radBtnNot"
+                        />
+                <RadioButton android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:text="HA"
+                             android:id="@+id/radBtnHa"
+                        />
+                <RadioButton android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:text="FA"
+                             android:id="@+id/radBtnFa"
+                />
+
+            </RadioGroup>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GO!"
+                    android:id="@+id/btnGo"
+                    android:layout_alignParentBottom="true"
+
+            />
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:paddingBottom="5dp"
+                android:id="@+id/relativeLayout2">
+
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="x=?"
+                      android:textSize="20sp"
+                      android:layout_alignParentStart="true"
+                      android:id="@+id/txtX"
+                      android:paddingBottom="10dp"
+                      android:paddingRight="35dp"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/txtX"
+                      android:text="Y=?"
+                      android:textSize="20sp"
+                      android:id="@+id/txtY"
+                      android:paddingBottom="10dp"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Z=?"
+                      android:textSize="20sp"
+                      android:layout_below="@id/txtY"
+                      android:id="@+id/txtZ"
+            />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
+
