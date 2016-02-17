@@ -41,21 +41,21 @@
             <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:text="A"
                     android:id="@+id/chkBoxA"
                     android:layout_alignParentStart="true"
             />
             <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:text="B"
                     android:id="@+id/chkBoxB"
                     android:layout_below="@+id/chkBoxA"
             />
             <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:text="C"
                     android:id="@+id/chkBoxC"
                     android:layout_below="@+id/chkBoxB"/>
         </RelativeLayout>
@@ -122,28 +122,45 @@
 
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="x=?"
+                      android:text="A=?"
                       android:textSize="20sp"
                       android:layout_alignParentStart="true"
-                      android:id="@+id/txtX"
+                      android:id="@+id/txtA"
                       android:paddingBottom="10dp"
                       android:paddingRight="35dp"
             />
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:layout_below="@+id/txtX"
-                      android:text="Y=?"
+                      android:layout_below="@+id/txtA"
+                      android:text="B=?"
                       android:textSize="20sp"
-                      android:id="@+id/txtY"
+                      android:id="@+id/txtB"
                       android:paddingBottom="10dp"
             />
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="Z=?"
+                      android:text="C=?"
                       android:textSize="20sp"
-                      android:layout_below="@id/txtY"
-                      android:id="@+id/txtZ"
+                      android:layout_below="@id/txtB"
+                      android:id="@+id/txtC"
+                      android:paddingBottom="10dp"
             />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="S=?"
+                      android:textSize="20sp"
+                      android:layout_below="@id/txtC"
+                      android:id="@+id/txtS"
+                      android:paddingBottom="10dp"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="T=?"
+                      android:textSize="20sp"
+                      android:layout_below="@id/txtS"
+                      android:id="@+id/txtT"
+            />
+
         </RelativeLayout>
 
 

@@ -27,7 +27,7 @@ public class FullAdder {
         this.b = b;
         this.c = c;
         execute();
-        print();
+        //print();
     }
     // these are quite useless to me as i did everything in house..
     public boolean getA(){return a;}
