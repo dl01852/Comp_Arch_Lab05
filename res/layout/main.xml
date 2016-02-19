@@ -44,20 +44,26 @@
                     android:text="A"
                     android:id="@+id/chkBoxA"
                     android:layout_alignParentStart="true"
-            />
+                    android:onClick="onCheckboxClicked" />
+                    <!--OnCheckBoxClicked is for showing 1 or 0 when checking
+                     either A, B or C respectively.-->
+
             <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="B"
                     android:id="@+id/chkBoxB"
                     android:layout_below="@+id/chkBoxA"
+                    android:onClick="onCheckboxClicked"
             />
             <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="C"
                     android:id="@+id/chkBoxC"
-                    android:layout_below="@+id/chkBoxB"/>
+                    android:layout_below="@+id/chkBoxB"
+                    android:onClick="onCheckboxClicked"
+            />
         </RelativeLayout>
 
         <RelativeLayout android:layout_width="wrap_content"

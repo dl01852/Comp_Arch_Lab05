@@ -16,12 +16,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0efbbd3-4a5b-4b64-817a-4c630a90b70c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="b0efbbd3-4a5b-4b64-817a-4c630a90b70c" name="Default" comment="Testing Finished product">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/CSCI_5331_Spring2016_Lab05_DavidLewis.apk" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/CSCI_5331_Spring2016_Lab05_DavidLewis.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/CSCI_5331_Spring2016_Lab05_DavidLewis.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/CSCI_5331_Spring2016_Lab05_DavidLewis.unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.class" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R$id.class" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R$layout.class" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R$string.class" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R.class" afterPath="$PROJECT_DIR$/out/production/CSCI_5331_Spring2016_Lab05_DavidLewis/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java" afterPath="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.java" />
     </list>
     <ignored path="CSCI_5331_Spring2016_Lab05_DavidLewis.iws" />
@@ -55,8 +60,8 @@
       <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9816513">
-              <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.9908257">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -68,7 +73,7 @@
       <file leaf-file-name="AndGate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/AndGate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.555555">
+            <state vertical-scroll-proportion="-10.407408">
               <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
@@ -88,7 +93,7 @@
       <file leaf-file-name="OrGate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/OrGate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.777779">
+            <state vertical-scroll-proportion="0.0">
               <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
               <folding />
             </state>
@@ -98,7 +103,7 @@
       <file leaf-file-name="HalfAdder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/HalfAdder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.185185">
+            <state vertical-scroll-proportion="-2.8888888">
               <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding />
             </state>
@@ -108,22 +113,37 @@
       <file leaf-file-name="FullAdder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5925927">
+            <state vertical-scroll-proportion="-0.6296296">
               <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3583815">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.9259257">
+              <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
               <folding>
-                <element signature="e#2641#2942#0" expanded="true" />
-                <element signature="e#2941#2942#0" expanded="true" />
+                <element signature="e#2731#4006#0" expanded="true" />
+                <element signature="e#4005#4006#0" expanded="true" />
+                <element signature="method#AndGateWork#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#AndGateWork#1;class#MyActivity#0" expanded="false" />
+                <element signature="method#OrGateWork#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#HalfAdderWork#0;class#MyActivity#0" expanded="false" />
+                <element signature="method#doWork#0;class#MyActivity#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,9 +173,10 @@
         <option value="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/AndGate.java" />
         <option value="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/OrGate.java" />
         <option value="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/HalfAdder.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -175,10 +196,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="111" />
-    <option name="width" value="1659" />
-    <option name="height" value="899" />
+    <option name="x" value="1672" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -205,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,9 +238,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -704,15 +725,23 @@
       <workItem from="1455233728628" duration="14949000" />
       <workItem from="1455250537074" duration="159000" />
       <workItem from="1455250916594" duration="63000" />
-      <workItem from="1455722625979" duration="3977000" />
+      <workItem from="1455722625979" duration="4100000" />
+      <workItem from="1455893553527" duration="7961000" />
     </task>
+    <task id="LOCAL-00001" summary="Testing Finished product">
+      <created>1455728971394</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1455728971394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25983000" />
+    <option name="totallyTimeSpent" value="34067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="111" width="1659" height="899" extended-state="0" />
+    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,16 +751,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21454768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21418338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05293441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22537112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27019498" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25578487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29942694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -742,6 +770,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -755,8 +784,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing Finished product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Finished product" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -767,7 +802,7 @@
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+          <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -802,7 +837,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/HalfAdder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -810,7 +845,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -820,8 +855,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2641#2942#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2731#4006#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="method#AndGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#AndGateWork#1;class#MyActivity#0" expanded="false" />
+            <element signature="method#OrGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#HalfAdderWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#doWork#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,8 +922,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2641#2942#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2731#4006#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="method#AndGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#AndGateWork#1;class#MyActivity#0" expanded="false" />
+            <element signature="method#OrGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#HalfAdderWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#doWork#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -944,8 +989,80 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2641#2942#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2731#4006#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="method#AndGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#AndGateWork#1;class#MyActivity#0" expanded="false" />
+            <element signature="method#OrGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#HalfAdderWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#doWork#0;class#MyActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/AndGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/NotGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/OrGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/HalfAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2731#4006#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="method#AndGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#AndGateWork#1;class#MyActivity#0" expanded="false" />
+            <element signature="method#OrGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#HalfAdderWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#doWork#0;class#MyActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,10 +1078,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/OrGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/AndGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.407408">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9816513">
-          <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+        <state vertical-scroll-proportion="-1.9908257">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -972,10 +1105,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/AndGate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/HalfAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.555555">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state vertical-scroll-proportion="-2.8888888">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -988,25 +1121,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/OrGate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.777779">
-          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/HalfAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.185185">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/FullAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5925927">
+        <state vertical-scroll-proportion="-0.6296296">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding />
         </state>
@@ -1014,12 +1131,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/CSCI_5331_Spring2016_Lab05_DavidLewis/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3583815">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.9259257">
+          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
           <folding>
-            <element signature="e#2641#2942#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2731#4006#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="method#AndGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#AndGateWork#1;class#MyActivity#0" expanded="false" />
+            <element signature="method#OrGateWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#HalfAdderWork#0;class#MyActivity#0" expanded="false" />
+            <element signature="method#doWork#0;class#MyActivity#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

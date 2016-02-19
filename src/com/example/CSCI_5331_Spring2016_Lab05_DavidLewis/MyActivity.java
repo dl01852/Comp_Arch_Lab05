@@ -19,12 +19,15 @@ public class MyActivity extends Activity {
     HalfAdder H1;
     FullAdder F1;
 
+    boolean checkA = false;
+    boolean checkB = false;
+    boolean checkC = false;
+
 
     boolean inA, inB, inC;  // booleans to correspond to it's CheckBox i.e inA = checkBoxA etc...
-    String strA = "A=?", strB = "B=?", strC = "C=?", strS = "S=?", strT = "T=?"; // Strings for the texView XML object.
+    String strA = "A=0", strB = "B=0", strC = "C=0", strS = "S=?", strT = "T=?"; // Strings for the texView XML object.
 
     TextView txtA, txtB, txtC,txtS,txtT;
-
     RadioButton radBtnAnd, radBtnOr, radBtnNot, radBtnHa, radBtnFa;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,9 +40,9 @@ public class MyActivity extends Activity {
         final CheckBox inputC = (CheckBox)findViewById(R.id.chkBoxC);
 
         // since we have the checkBoxes, let's go ahead and grab those values. Checked = true = 1; NotChecked = false = 0
-        inA = inputA.isChecked();
-        inB = inputB.isChecked();
-        inC = inputC.isChecked();
+        //inA = inputA.isChecked();
+        //inB = inputB.isChecked();
+        //inC = inputC.isChecked();
 
         // RadioButtons to decide what gate to use.
         radBtnAnd = (RadioButton)findViewById(R.id.radBtnAnd);
@@ -70,15 +73,101 @@ public class MyActivity extends Activity {
 
         Start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                doWork();
-                txtA.setText(strA);
-                txtB.setText(strB);
-                txtC.setText(strC);
-                txtS.setText(strS);
-                txtT.setText(strT);
+
+                inA = inputA.isChecked();
+                inB = inputB.isChecked();
+                inC = inputC.isChecked();
+                if(radBtnAnd.isChecked())
+                {
+                    if ((inA && inB) || (inA && inC) || (inB && inC))
+                        strS = Boolean.toString(AndGateWork(true, true));
+                    else if(inA && inB && inC)
+                        strS = Boolean.toString(AndGateWork(true, true, true));
+                    else
+                        strS = Boolean.toString(AndGateWork(true,false));
+
+                    txtS.setText(strS);
+                }
+                else if(radBtnOr.isChecked()) {
+                    if ((inA || inB) || (inA || inC) || (inB || inC))
+                        strS = Boolean.toString(OrGateWork(true, true));
+                    else
+                        strS = Boolean.toString(OrGateWork(false, false));
+
+                    txtS.setText(strS);
+                }
+
+                else if(radBtnHa.isChecked())
+                {
+                    HalfAdderWork(inA, inB, inC);
+                    txtS.setText(strS);
+                    txtT.setText(strT);
+                }
+
 
             }
         });
+
+    }
+
+    // Handle AndGates for 2 inputs and 3 inputs...
+    public boolean AndGateWork(boolean inputA, boolean inputB)
+    {
+        boolean output;
+        A1 = new AndGate();
+        A1.setInputs(inputA,inputB);
+        output = A1.getOutput();
+        return output;
+    }
+    public boolean AndGateWork(boolean inputA, boolean inputB,boolean inputC)
+    {
+        A1 = new AndGate();
+        A1.setInputs(inputA,inputB,inputC);
+       return A1.getOutput();
+    }
+    public boolean OrGateWork(boolean inputA, boolean inputB)
+    {
+        boolean output;
+        O1 = new OrGate();
+        O1.setInputs(inputA,inputB);
+        output = O1.getOutput();
+        return output;
+    }
+    public void HalfAdderWork(boolean inputA, boolean inputB, boolean inputC)
+    {
+
+        H1 = new HalfAdder();
+        H1.setInputs(inputA,inputB,inputC);
+        strS = H1.getS()?"true":"false";
+        strT = H1.getC()?"true":"false";
+        txtS.setText(strS);
+        txtT.setText(strT);
+    }
+
+
+    // This is to update the UI on the fly when you check a box.
+    public void onCheckboxClicked(View view) // It must follow this signature. Kinda like a Delegate(in C#)
+    {
+
+        boolean checked = ((CheckBox) view).isChecked();
+        switch(view.getId())
+        {
+            case R.id.chkBoxA:
+                txtA.setText(checked?"A=1":"A=0");
+                checkA = !checkA;
+                break;
+            case R.id.chkBoxB:
+                txtB.setText(checked? "B=1":"B=0");
+                checkB = !checkB;
+                break;
+            case R.id.chkBoxC:
+                txtC.setText(checked? "C=1":"C=0");
+                checkC = !checkC;
+                break;
+        }
+        radBtnAnd.setEnabled(!(checkA && checkB && checkC));
+        radBtnOr.setEnabled(!(checkA&&checkB&&checkC));
+        radBtnHa.setEnabled(!(checkA&&checkB&&checkC));
 
     }
 
@@ -88,17 +177,17 @@ public class MyActivity extends Activity {
             A1 = new AndGate();
             if (inA && inB) // A and B
             {
-                A1.setInputs(inA, inB);
+                A1.setInputs(true, true);
                 strA = Byte.toString(ctb(inA));
                 strB = Byte.toString(ctb(inB));
             } else if (inA && inC) // A and C
             {
-                A1.setInputs(inA, inC);
+                A1.setInputs(true, true);
                 strA = Byte.toString(ctb(inA));
                 strC = Byte.toString(ctb(inC));
             } else if (inB && inC) // B and C..
             {
-                A1.setInputs(inB, inC);
+                A1.setInputs(true, true);
                 strB = Byte.toString(ctb(inB));
                 strC = Byte.toString(ctb(inC));
             } else {
@@ -116,15 +205,15 @@ public class MyActivity extends Activity {
                 strA = Byte.toString(ctb(inA));
                 strB = Byte.toString(ctb(inB));
             } else if (inA || inC) {
-                O1.setInputs(inA, inC);
+                O1.setInputs(false, true);
                 strA = Byte.toString(ctb(inA));
                 strC = Byte.toString(ctb(inC));
-            } else if (inB || inC) {
+            } else if (inB || false) {
                 O1.setInputs(inB, inC);
                 strB = Byte.toString(ctb(inB));
                 strC = Byte.toString(ctb(inC));
             } else {
-                O1.setInputs(inA, inB, inC);
+                O1.setInputs(false, false, false);
                 strA = Byte.toString(ctb(inA));
                 strB = Byte.toString(ctb(inB));
                 strC = Byte.toString(ctb(inC));
@@ -151,15 +240,15 @@ public class MyActivity extends Activity {
             // same exact code as AndGate
             H1 = new HalfAdder();
             if (inA && inB) {
-                H1.setInput(inA, inB);
+                H1.setInput(true, true);
                 strA = Byte.toString(ctb(inA));
                 strB = Byte.toString(ctb(inB));
             } else if (inA && inC) {
-                H1.setInput(inA, inC);
+                H1.setInput(true, true);
                 strA = Byte.toString(ctb(inA));
                 strC = Byte.toString(ctb(inC));
             } else if (inB && inC) {
-                H1.setInput(inB, inC);
+                H1.setInput(true, true);
                 strB = Byte.toString(ctb(inB));
                 strC = Byte.toString(ctb(inC));
             } else {
