@@ -1,4 +1,5 @@
 package com.example.CSCI_5331_Spring2016_Lab05_DavidLewis;
+
 /**
  * Created by David on 2/11/2016.
  * this simulates 2 particular Half adders to make a full adder.
@@ -27,7 +28,6 @@ public class FullAdder {
         this.b = b;
         this.c = c;
         execute();
-        //print();
     }
     // these are quite useless to me as i did everything in house..
     public boolean getA(){return a;}

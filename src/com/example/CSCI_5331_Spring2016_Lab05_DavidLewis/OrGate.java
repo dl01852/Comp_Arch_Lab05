@@ -35,18 +35,18 @@ public class OrGate {
         execute();
     }
 
-    public void setInputs(boolean inputA, boolean inputB, boolean inputC)
-    {
-        this.inputA = inputA;
-        this.inputB = inputB;
-        this.inputC = inputC;
-        executeTrice();
-    }
+//    public void setInputs(boolean inputA, boolean inputB, boolean inputC)
+//    {
+//        this.inputA = inputA;
+//        this.inputB = inputB;
+//        this.inputC = inputC;
+//       // executeTrice();
+//    }
 
     public boolean getA() {return inputA;}
     public boolean getB() {return inputB;}
     public boolean getOutput() {return output;}
     private void execute() {output = inputA || inputB;}
-    private void executeTrice(){output = inputA || inputB || inputC;}
+   // private void executeTrice(){output = inputA || inputB || inputC;}
 
 }

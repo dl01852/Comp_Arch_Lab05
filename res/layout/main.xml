@@ -6,8 +6,9 @@
               android:paddingLeft="20dp"
               android:paddingTop="15dp"
               android:paddingRight="20dp"
+              android:id="@+id/LinearID"
 
-              android:background="#7989b3">
+              android:background="#000000">
     <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -128,7 +129,7 @@
 
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="A=?"
+                      android:text="@string/a_string"
                       android:textSize="20sp"
                       android:layout_alignParentStart="true"
                       android:id="@+id/txtA"
@@ -138,14 +139,14 @@
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_below="@+id/txtA"
-                      android:text="B=?"
+                      android:text="@string/b_string"
                       android:textSize="20sp"
                       android:id="@+id/txtB"
                       android:paddingBottom="10dp"
             />
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="C=?"
+                      android:text="@string/c_string"
                       android:textSize="20sp"
                       android:layout_below="@id/txtB"
                       android:id="@+id/txtC"
@@ -153,7 +154,7 @@
             />
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="S=?"
+                      android:text="@string/s_string"
                       android:textSize="20sp"
                       android:layout_below="@id/txtC"
                       android:id="@+id/txtS"
@@ -161,7 +162,7 @@
             />
             <TextView android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="T=?"
+                      android:text="@string/t_string"
                       android:textSize="20sp"
                       android:layout_below="@id/txtS"
                       android:id="@+id/txtT"

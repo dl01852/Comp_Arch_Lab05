@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CSCI_5331_Spring2016_Lab05_DavidLewis</string>
+    <string name="t_string">T=?</string>
+    <string name="s_string">S=?</string>
+    <string name="c_string">C=?</string>
+    <string name="b_string">B=?</string>
+    <string name="a_string">A=?</string>
 </resources>

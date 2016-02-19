@@ -1,4 +1,5 @@
 package com.example.CSCI_5331_Spring2016_Lab05_DavidLewis;
+
 /**
  * Created by David on 2/10/2016.
  * Half Adder simulates the combination of
@@ -17,9 +18,8 @@ public class HalfAdder {
     private NotGate n1;
     private boolean a;
     private boolean b;
-    private boolean c;
     private boolean s;
-    private boolean t;
+    private boolean c;
 
 
     public HalfAdder()
@@ -36,31 +36,13 @@ public class HalfAdder {
         this.a = a;
         this.b = b;
         execute();
+        //print();
     }
-
-    public void setInputs(boolean a, boolean b, boolean c)
-    {
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        executeTrice();
-    }
-
     public boolean getA(){return a;}
     public boolean getB(){return b;}
     public boolean getC(){return c;}
     public boolean getS(){return s;}
-    public boolean getT(){return t;}
 
-
-    private void executeTrice()
-    {
-        o1.setInputs(a,b,c);
-        a1.setInputs(a,b,c);
-        a2.setInputs(o1.getOutput(),!a1.getOutput());
-        s = a2.getOutput();
-        t = a1.getOutput();
-    }
 
     private void execute()
     {
@@ -69,6 +51,19 @@ public class HalfAdder {
         a1.setInputs(a,b);
         a2.setInputs(o1.getOutput(),!a1.getOutput());
         s = a2.getOutput();
-        t = a1.getOutput();
+        c = a1.getOutput();
+    }
+
+    private void print()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format("a:%d b:%d ",ctb(a),ctb(b)));
+        sb.append(String.format("s:%d c:%d",ctb(s),ctb(c)));
+        System.out.println(sb.toString());
+    }
+
+    private byte ctb(boolean input) // ctb = Convert To Binary.. just turn the falses to 0 and true's to 1s
+    {
+        return input?(byte)1:0;
     }
 }
