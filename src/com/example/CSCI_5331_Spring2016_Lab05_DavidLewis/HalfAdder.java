@@ -54,16 +54,16 @@ public class HalfAdder {
         c = a1.getOutput();
     }
 
-    private void print()
-    {
-        StringBuilder sb = new StringBuilder();
-        sb.append(String.format("a:%d b:%d ",ctb(a),ctb(b)));
-        sb.append(String.format("s:%d c:%d",ctb(s),ctb(c)));
-        System.out.println(sb.toString());
-    }
-
-    private byte ctb(boolean input) // ctb = Convert To Binary.. just turn the falses to 0 and true's to 1s
-    {
-        return input?(byte)1:0;
-    }
+//    private void print()
+//    {
+//        StringBuilder sb = new StringBuilder();
+//        sb.append(String.format("a:%d b:%d ",ctb(a),ctb(b)));
+//        sb.append(String.format("s:%d c:%d",ctb(s),ctb(c)));
+//        System.out.println(sb.toString());
+//    }
+//
+//    private byte ctb(boolean input) // ctb = Convert To Binary.. just turn the falses to 0 and true's to 1s
+//    {
+//        return input?(byte)1:0;
+//    }
 }

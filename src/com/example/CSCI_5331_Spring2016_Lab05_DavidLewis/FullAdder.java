@@ -46,16 +46,16 @@ public class FullAdder {
         t = o1.getOutput();
     }
 
-    private void print()
-    {
-        StringBuilder sb = new StringBuilder();
-        sb.append(String.format("a:%d b:%d c:%d ",ctb(a),ctb(b),ctb(c)));
-        sb.append(String.format("s:%d t:%d",ctb(s),ctb(t)));
-        System.out.println(sb.toString());
-    }
+//    private void print()
+//    {
+//        StringBuilder sb = new StringBuilder();
+//        sb.append(String.format("a:%d b:%d c:%d ",ctb(a),ctb(b),ctb(c)));
+//        sb.append(String.format("s:%d t:%d",ctb(s),ctb(t)));
+//        System.out.println(sb.toString());
+//    }
 
-    private byte ctb(boolean input) // ctb = Convert To Binary.. just turn the falses to 0 and true's to 1s
-    {
-        return input?(byte)1:0;
-    }
+//    private byte ctb(boolean input) // ctb = Convert To Binary.. just turn the falses to 0 and true's to 1s
+//    {
+//        return input?(byte)1:0;
+//    }
 }
